@@ -1,0 +1,38 @@
+/* Example for illustrate how to set different fonts for each elements on a page */
+body {
+font-family: Helvetica;
+    background-color: #ffff99;
+}
+
+h1 {
+font-family: Impact;
+    font-size: 3em;
+    padding: 10px;
+    border: 3px solid #ff6600;
+    color: #ff6600;
+}
+
+
+h2 {
+background-color: #ff6600;
+    padding: 1.5em .5em .5em;
+    color: #ffff99;
+    font-family: "Courier New";
+}
+
+ol {
+    background-color: #ffcc00;
+    font-family: Helvetica;
+    color: #ffff99;
+    font-weight: bold;
+}
+
+li {
+    padding: .5em;
+}
+
+p {
+    border: 3px dotted #ffcc00;
+    padding: .5em;
+
+}
